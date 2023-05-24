@@ -1,0 +1,166 @@
+main{
+    margin: 20px 90px auto;
+    background-color: rgb(255, 255, 255);
+    padding: 50px;
+    border: 15px double rgb(0, 0, 0);
+    height: auto;
+}
+body{
+    background-color: black;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+    background-size: cover;
+}
+.arca{
+    width: 500px;
+    height: 550px;
+    border-radius: 50%;
+    margin: 10px;
+    border: 15px double rgb(0, 0, 0);
+}
+.arca:hover{
+    transform: scale(0.8);
+    transition:  0.5s ease-in-out;
+    box-shadow: 0px 0px 20px 20px rgb(0, 0, 0);
+}
+.titulo{
+    color: rgb(0, 0, 0);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center
+}
+footer p{
+    text-align: center;
+    color: rgb(0, 0, 0);
+    font-size: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding: 20px;
+    text-align: center;
+    background-color: #FFF;
+    margin: 20px 0;
+}
+.descripcion{
+    font-size: 30px;
+    text-align: center;
+    padding: 20px;
+}
+
+
+h3{
+    padding: 20px;
+    float: left;
+    color: #ffffff;
+  }
+h3:hover{
+    color: #adabab;
+}
+  
+  
+header{
+    background: #555555;
+    width: 100%;
+    clear: both;
+    display: table;
+    border-radius: 50PX;
+    box-shadow: 5PX 5PX black;
+    margin:40px 40px 40px 40px auto;
+}
+  
+  .menu{
+    width: 1100px;
+    margin: 0 auto;
+  }
+  
+  nav{
+    float: right;
+  }
+  
+  ul li{
+    list-style: none;
+    margin-left: 75px;
+    float: left;
+    padding: 20px 0;
+  }
+  
+  li a{
+    text-decoration: none;
+    color: #fff;
+    padding: 14px 16px;
+    
+  } 
+  li a:hover{
+    color: #333;
+  }
+.info{
+    font-size: 30px;
+    border-radius: 10px;
+    float: left;
+    width: 60%;
+    margin: 40px ;
+    padding: 10px;
+}
+.arcaBIO{
+    float:right;
+    width:405px;
+    height:600px; 
+    margin: 50px;
+    border: 8px double black;
+    border-radius: 20%;
+}
+.arcaBIO:hover{
+  transform: scale(0.8);
+  transition:  5s ease-in-out;
+  box-shadow: 0px 0px 20px 20px rgb(0, 0, 0);
+  border-radius: 20%;
+}
+.clear{
+  clear: both;
+}
+
+h1{
+  text-align: center;
+}
+.titulo{
+  text-align: center;
+  padding: 8px;
+  font-size: 30px;
+}
+.musica{
+  font-size: 50px;
+  color: #ff0000;
+}
+.biografia{
+  font-size:50px;
+  color: #ff0000;
+}
+
+.contenedor{
+  margin: 90px 80px;
+  box-shadow: 0px 0px 20px 20px #7F51D9;
+  float: left;
+  width: 400px;
+  border-radius: 10px;
+}
+.contenedor img{
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+}
+.pie{
+  background-color: white;
+  text-align: center;
+  text-shadow: 2px 2px 5px #7F51D9; ;
+  padding: 25px;
+  border-radius: 18px;
+}
+.pie a{
+  margin: 10px;
+  padding: 15px;
+  text-decoration: none;
+  color: black;
+}
+h1{
+  font-size: 50px;
+}
+h1 b{
+  color:#5500ff;
+}
